@@ -1,0 +1,141 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Thức Ăn Cho Mèo"
+    },
+    {
+      "id": 2,
+      "name": "Thức Ăn Cho Chó"
+    }
+  ],
+  "products": [
+    {
+     "id": 1,
+      "name": "Bowwow-Gum chăm sóc răng" ,
+      "cate_id": 2,
+      "price": 40000,
+      "detail": 1,
+      "hotdeal": 1,
+      "image":"../site/img/Bowwow-Gum chăm sóc răng.png" 
+    },
+    {
+      "id": 2,
+       "name": "Sữa bột Predogen cho chó" ,
+       "cate_id": 2,
+       "price": 45000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Sữa bột Predogen cho chó.png" 
+     },
+     {
+      "id": 3,
+       "name": "Sữa cho mèo con Royal Canin babycat Milk" ,
+       "cate_id": 1,
+       "price": 450000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Sữa cho mèo con Royal Canin babycat Milk.png" 
+     },
+     {
+      "id": 4,
+       "name": "Thức ăn hạt cho mèo CATSRANG" ,
+       "cate_id": 1,
+       "price": 95000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Thức ăn hạt cho mèo CATSRANG.png" 
+     },
+     {
+      "id": 5,
+       "name": "Bánh thưởng Pedigree cho chó con vị bò xông khói" ,
+       "cate_id": 2,
+       "price": 105000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image": "../site/img/Bánh thưởng Pedigree cho chó con vị bò xông khói.png" 
+     },
+     {
+      "id": 6,
+       "name": "Pate cho mèo con Whiskas vị cá thu" ,
+       "cate_id": 1,
+       "price": 6000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Pate cho mèo con Whiskas vị cá thu.png" 
+     },
+     {
+      "id": 7,
+       "name": "Súp thưởng cho mèo Ciao Churu" ,
+       "cate_id": 1,
+       "price": 30000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Sup thưởng cho mèo Ciao Churu.png" 
+     },
+     {
+      "id": 8,
+       "name": "Bánh thưởng dạng kem vị cá hồi Me-O" ,
+       "cate_id": 1,
+       "price": 45000,
+       "detail": 1,
+       "hotdeal": 1,
+       "image":"../site/img/Bánh-thưởng-dạng-kem-vị-cá hồi-Me-O.png" 
+     },
+     {
+      "id": 9,
+       "name": "Pate cho mèo lớn Whiskas vị cá basa nướng" ,
+       "cate_id": 1,
+       "price": 6000,
+       "detail": 1,
+       "hotdeal": 0,
+       "image":"../site/img/Pate cho mèo lớn Whiskas vị cá basa nướng.png" 
+     },
+     {
+      "id": 10,
+       "name": "Pate Pedigree vj gà nấu sốt cho chó lớn" ,
+       "cate_id": 2,
+       "price": 18000,
+       "detail": 1,
+       "hotdeal": 0,
+       "image":"../site/img/Pate Pedigree vj gà nấu sốt cho chó lớn.png" 
+     },
+     {
+      "id": 11,
+       "name": "Thức ăn khô cho chó trưởng thành vị bò nướng SmartHeart" ,
+       "cate_id": 2,
+       "price": 105000,
+       "detail": 1,
+       "hotdeal": 0,
+       "image":"../site/img/Thức ăn khô cho chó trưởng thành vị bò nướng SmartHeart.png" 
+     },
+     {
+      "id": 12,
+       "name": "Hạt cho mèo lớn Me-O" ,
+       "cate_id": 1,
+       "price": 30000,
+       "detail": 1,
+       "hotdeal": 0,
+       "image":"../site/img/Hạt cho mèo lớn Me-O.jpg" 
+     }
+  ],
+  "orders": [
+    { 
+        "id": 12345,
+        "customer_name": "John Doe",
+        "customer_address": "123 Main Street, City",
+        "customer_email": "johndoe@example.com",
+        "customer_phone_number": "123-456-7890",
+        "created_date": "2024-01-15",
+        "status": "pending"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id":12345,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 9.99
+    }
+  ]   
+}

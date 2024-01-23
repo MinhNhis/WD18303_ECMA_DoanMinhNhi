@@ -47,13 +47,9 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Dashboard
                     </a>
-                    <a class="nav-link" href="">
+                    <a class="nav-link" href="product.html">
                         <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                         Danh sách sản phẩm
-                    </a>
-                    <a class="nav-link" href="add.html">
-                        <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                        Thêm sản phẩm
                     </a>
                 </div>
             </div>
@@ -66,14 +62,47 @@
     <div id="layoutSidenav_content">
         <main>
             <div class="container">
-                <h1 class="mt-4">Danh sách sản phẩm</h1>
-                <div class="card mb-4">
-                    <div class="card-body" >
-                        <table id="datatablesSimple" class="table table-bordered">
+                <h1 class="mt-4">Thêm sản phẩm</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Tên sản phẩm</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                                    </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Giá</label>
+                                <input type="number" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Ảnh</label>
+                                <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                                    </div>
+                            <div class="mb-3">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Loại hàng</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                                    </div>
+                                <div class="mb-3">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Hotdeal</label>
+                                        <div>
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Có
+                                            </label>
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Không
+                                            </label>
+                                        </div>
 
-                        </table>
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <button type="submit" class="btn btn-primary">Thêm</button>
+                        </form>
                     </div>
+
                 </div>
+
             </div>
         </main>
         <footer class="py-4 bg-light mt-auto">
